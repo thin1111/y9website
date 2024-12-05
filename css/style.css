@@ -1,0 +1,296 @@
+* {
+  
+}
+#body {
+  background-color: #CABA9C;
+  overflow-x: hidden;
+  text-align: justify;
+}
+
+#nav, footer {
+  background-color: #8A6240;
+}
+
+#intro{
+  background-image: url(../img/flood1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  margin: auto;
+  padding: 10px 0px;
+}
+#orgintro{
+  background-image: url(../img/);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+#intro-heading{
+  font-size: 4.5em;
+}
+
+.textfont{
+  font-size: 1.5em;
+  align-items: center;
+  text-align: center;
+  padding-top: 10vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+} 
+
+#card-btn {
+  background-color: saddlebrown;
+  color: #ffffff;
+}
+
+.banner-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+#banner{
+  padding-top: 21vh;
+  padding-bottom: 21vh;
+}
+.banner-img {
+  display: flex;
+  justify-content: center;
+}
+
+#banner-img {
+  height: 40vh;
+  width: auto;
+  margin: auto;
+}
+
+.nav-logo {
+  height: 10vh;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+#card-thing1,
+#card-thing2,
+#card-thing3,
+#card-thing4,
+#card-thing5,
+#card-thing6,
+#card-thing7,
+#card-thing8,
+#card-thing9,
+#card-thing10,
+#card-thing11{
+  background-color: tan;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#card-thing1:hover,
+#card-thing2:hover,
+#card-thing3:hover,
+#card-thing4:hover,
+#card-thing5:hover,
+#card-thing6:hover,
+#card-thing7:hover,
+#card-thing8:hover,
+#card-thing9:hover,
+#card-thing10:hover,
+#card-thing11:hover{
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+
+#card-btn1,
+#card-btn2,
+#card-btn3,
+#card-btn4,
+#reset-button,
+#register-button,
+#submit-button,
+#card-btn31,
+#card-btn32,
+#card-btn33,
+#card-btn34,
+#card-btn35,
+#card-btn36,
+#card-btn37{
+  background-color: #8A6240;
+  color: #ffffff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#card-btn1:hover,
+#card-btn2:hover,
+#card-btn3:hover,
+#card-btn4:hover ,
+#card-btn31:hover,
+#card-btn32:hover,
+#card-btn33:hover,
+#card-btn34:hover,
+#card-btn35:hover,
+#card-btn36:hover,
+#card-btn37:hover,
+#register-button:hover,
+#reset-button:hover,
+#submit-button:hover{
+  background-color: #755A4B;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; 
+}
+
+.card-title {
+  color: black;
+  font-size: 1.8rem;
+}
+
+.card-text {
+  color: black;
+  font-size: 1rem;
+}
+
+
+#spacingthing {
+  padding-top: 5vh; 
+}
+
+#sliderimg1,
+#sliderimg2,
+#sliderimg3,
+#sliderimg4{
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel-caption{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#bout-img{
+  width: 50vh;
+  height: 40vh;
+}
+
+#about-us{
+   background-color: rgba(0, 0, 0, 0.3);
+   border-radius: 5%;
+}
+#aoisdj{
+  height: 5vh;
+}
+#about-us-img{
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about-us-name{
+  text-align: center;
+  font-size: 2em;
+}
+#about-us-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about-us-top-text{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aboutUsImg{ 
+  height: 625px;
+  width: 575px;
+  border-radius: 13px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#form{
+  width: 100%;
+}
+
+#register-form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+#title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #343a40;
+}
+.form-control {
+  border-radius: 5px;
+}
+.btn {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* #register-form{
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+#donate2{
+  filter: blur(0.7px);
+}
+
+/* rating start */
+.star-rating {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 34% ;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+}
+
+.star {
+  color: gray;
+}
+/* rating end */
